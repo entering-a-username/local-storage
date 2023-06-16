@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- 
+        local storage is just an object, which is a key value pair. value is always a string.
+        when you get the item from local storage, it'll be a string as well.
+     -->
+     <main>
+        <form id="studentForm">
+          <input type="text" placeholder="Student name" name="name" required />
+          <input type="number" placeholder="Student age" name="age" required />
+          <input type="number" placeholder="Student roll" name="roll" required />
+          <button>Add student</button>
+        </form>
+        <div class="students"></div>
+      </main>
+
+
+      <script src="script.js"></script>
+
+</body>
+</html>
